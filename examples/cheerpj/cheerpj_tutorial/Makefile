@@ -8,7 +8,9 @@ build:
 	$(CHEERPJ) $(JAR)
 
 serve:
-	http_server -p $(PORT)
+	echo "Hosting minimal web server on `npx -q codespaces-port $(PORT)`"
+	http-server -p $(PORT)
 
 clean:
+	rm -rf $(JAR).js
 
