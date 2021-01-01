@@ -8,11 +8,19 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.shell.linux": "/bin/bash",
+    "browser-preview.chromeExecutable": "/usr/bin/chromium-browser",
+    "browser-preview.verbose": true
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
+	"extensions": [
+    "ms-vscode.cpptools",
+    "austin.code-gnu-global",
+    "ms-vscode.cpptools-extension-pack",
+    "eamodio.gitlens",
+    "auchenberg.vscode-browser-preview"
+  ],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
