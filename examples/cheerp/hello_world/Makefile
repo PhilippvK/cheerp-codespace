@@ -7,9 +7,10 @@ build: $(SRC)
 	/opt/cheerp/bin/clang++ -target cheerp $(SRC) -o $(PRJ).js
 
 run: build
-	nodejs $(PRJ).js
+	node $(PRJ).js
 
 serve: build $(HTML)
+	echo "Hosting minimal web server on `npx -q codespaces-port 8123`"
 	http-server -p $(PORT)
 
 all: run
