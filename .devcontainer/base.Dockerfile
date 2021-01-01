@@ -32,3 +32,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 # Install Minimal HTTP server
 RUN npm install --global http-server
+
+# TODO: wget https://d3415aa6bfa4.leaningtech.com/cheerpj_linux_2.1.tar.gz
