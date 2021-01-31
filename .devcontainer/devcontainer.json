@@ -19,7 +19,8 @@
     "austin.code-gnu-global",
     "ms-vscode.cpptools-extension-pack",
     "eamodio.gitlens",
-    "auchenberg.vscode-browser-preview"
+    "auchenberg.vscode-browser-preview",
+    "mutantdino.resourcemonitor"
   ],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
