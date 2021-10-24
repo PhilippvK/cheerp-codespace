@@ -1,0 +1,6 @@
+TypeError: Cannot read property 'v15' of null
+    at _c4pbQlGfcuXZeli6applet12LoaemJ1Panel12drawGradientE19 (http://localhost:8000/AGolf/client-2.1.0.0-BETA.jar.js:519:10019)
+    at _c4pbQlGfcuXZeli6applet12LoaemJ1Panel12drawGradientE18 (http://localhost:8000/AGolf/client-2.1.0.0-BETA.jar.js:519:9355)
+    at Object.eval [as func] (eval at buildContinuations (https://cjrtnc.leaningtech.com/20200206/loader.js:115:23), <anonymous>:3:221)
+    at runContinuationStack (https://cjrtnc.leaningtech.com/20200206/loader.js:387:10)
+    at MessagePort.cheerpjSchedule (https://cjrtnc.leaningtech.com/20200206/loader.js:1110:5)
